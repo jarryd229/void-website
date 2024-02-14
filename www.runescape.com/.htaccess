@@ -1,0 +1,17 @@
+RewriteEngine on
+
+php_value date.timezone Australia/Melbourne
+
+ErrorDocument 404 http://localhost/www.runescape.com/error404.html
+
+RewriteRule (.*)\.ws $1.php
+Options -Indexes 
+
+RewriteRule ^kbase/guid/manual(|/)$ kbase/guid/manual.php
+RewriteRule ^kbase/search(|/)$ kbase/search.php
+
+RewriteRule ^kbase/guid/controls(|/)$ kbase/guid/controls.php
+RewriteRule ^kbase/guid/controls_options(|/)$ kbase/guid/controls_options.php
+
+RewriteRule ^kbase/guid/distractions_and_diversions(|/)$ kbase/guid/distractions_and_diversions.php
+RewriteRule ^kbase/guid/treasure_trails_rewards(|/)$ kbase/guid/treasure_trails_rewards.php
