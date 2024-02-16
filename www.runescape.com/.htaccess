@@ -13,5 +13,16 @@ RewriteRule ^kbase/search(|/)$ kbase/search.php
 RewriteRule ^kbase/guid/controls(|/)$ kbase/guid/controls.php
 RewriteRule ^kbase/guid/controls_options(|/)$ kbase/guid/controls_options.php
 
-RewriteRule ^kbase/guid/distractions_and_diversions(|/)$ kbase/guid/distractions_and_diversions.php
-RewriteRule ^kbase/guid/treasure_trails_rewards(|/)$ kbase/guid/treasure_trails_rewards.php
+RewriteRule ^kbase/guid/achievement_diary(|/)$ kbase/guid/achievement_diary.php
+RewriteRule ^kbase/guid/the_achievement_diary(|/)$ kbase/guid/the_achievement_diary.php
+
+
+
+
+
+
+
+
+
+
+
