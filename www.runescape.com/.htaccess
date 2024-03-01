@@ -7,18 +7,25 @@ ErrorDocument 404 http://localhost/www.runescape.com/error404.html
 RewriteRule (.*)\.ws $1.php
 Options -Indexes 
 
+RewriteRule ^what_is_runescape(|/)$ what_is_runescape.php
+
 RewriteRule ^kbase/guid/manual(|/)$ kbase/guid/manual.php
 RewriteRule ^kbase/search(|/)$ kbase/search.php
 
 RewriteRule ^kbase/guid/controls(|/)$ kbase/guid/controls.php
 RewriteRule ^kbase/guid/controls_options(|/)$ kbase/guid/controls_options.php
 
+
 RewriteRule ^kbase/guid/achievement_diary(|/)$ kbase/guid/achievement_diary.php
 RewriteRule ^kbase/guid/the_achievement_diary(|/)$ kbase/guid/the_achievement_diary.php
-
-
-
-
+RewriteRule ^kbase/guid/ardougne_achievement(|/)$ kbase/guid/ardougne_achievement.php
+RewriteRule ^kbase/guid/karamja(|/)$ kbase/guid/karamja.php
+RewriteRule ^kbase/guid/lumbridge_draynor_achievement_diary(|/)$ kbase/guid/lumbridge_draynor_achievement_diary.php
+RewriteRule ^kbase/guid/falador_achievement(|/)$ kbase/guid/falador_achievement.php
+RewriteRule ^kbase/guid/fremennik_achievement(|/)$ kbase/guid/fremennik_achievement.php
+RewriteRule ^kbase/guid/seers_village_achievement(|/)$ kbase/guid/seers_village_achievement.php
+RewriteRule ^kbase/guid/misc_tasks(|/)$ kbase/guid/misc_tasks.php
+RewriteRule ^kbase/guid/varrock_achievement(|/)$ kbase/guid/varrock_achievement.php
 
 
 

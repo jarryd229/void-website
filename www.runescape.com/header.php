@@ -177,7 +177,7 @@ $online = dbevaluate("SELECT COUNT(UID) FROM users WHERE online = '1';");
                                     <li><a href="<?php echo WWW; ?>" class="fly"><span>Grand Exchange</span></a></li>
                                     <li><a href="<?php echo WWW; ?>" class="fly"><span>Rules</span></a></li>
                                     <li><a href="<?php echo WWW; ?>" class="fly"><span>Lores</span></a></li>
-                                    <li><a href="<?php echo WWW; ?>/splash" class="fly"><span>What is RuneScape?</span></a></li>
+                                    <li><a href="<?php echo WWW; ?>/what_is_runescape" class="fly"><span>What is RuneScape?</span></a></li>
                                 </ul>
                                 <!--[if lte IE 6]></td></tr></table></a><![endif]-->
                             </li>
