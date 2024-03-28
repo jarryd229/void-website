@@ -12,8 +12,16 @@ RewriteRule ^what_is_runescape(|/)$ what_is_runescape.php
 RewriteRule ^kbase/guid/manual(|/)$ kbase/guid/manual.php
 RewriteRule ^kbase/search(|/)$ kbase/search.php
 
+
 RewriteRule ^kbase/guid/controls(|/)$ kbase/guid/controls.php
 RewriteRule ^kbase/guid/controls_options(|/)$ kbase/guid/controls_options.php
+
+RewriteRule ^kbase/guid/Downloads_and_Wallpapers(|/)$ kbase/guid/Downloads_and_Wallpapers.php
+RewriteRule ^kbase/guid/wallpapers_archive(|/)$ kbase/guid/wallpapers_archive.php
+RewriteRule ^kbase/guid/media(|/)$ kbase/guid/media.php
+RewriteRule ^xmas_card_warble(|/)$ xmas_card_warble.php
+RewriteRule ^xmas_card_falador(|/)$ xmas_card_falador.php
+RewriteRule ^xmas_card_bob(|/)$ xmas_card_bob.php
 
 
 RewriteRule ^kbase/guid/achievement_diary(|/)$ kbase/guid/achievement_diary.php
@@ -28,6 +36,15 @@ RewriteRule ^kbase/guid/misc_tasks(|/)$ kbase/guid/misc_tasks.php
 RewriteRule ^kbase/guid/varrock_achievement(|/)$ kbase/guid/varrock_achievement.php
 
 
+RewriteRule ^kbase/guid/random_events(|/)$ kbase/guid/random_events.php
+
+
+RewriteRule ^kbase/guid/runescape_minigames(|/)$ kbase/guid/runescape_minigames.php
+RewriteRule ^kbase/guid/stealing_creation_equipment(|/)$ kbase/guid/stealing_creation_equipment.php
+RewriteRule ^kbase/guid/hybrid_armour_members(|/)$ kbase/guid/hybrid_armour_members.php
+RewriteRule ^kbase/guid/dominion_tower(|/)$ kbase/guid/dominion_tower.php
+RewriteRule ^kbase/guid/barbarian_assault(|/)$ kbase/guid/barbarian_assault.php
+RewriteRule ^kbase/guid/brimhaven_agility_arena(|/)$ kbase/guid/brimhaven_agility_arena.php
 
 
 

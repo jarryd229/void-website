@@ -7,9 +7,7 @@ require_once("../../header.php");
 require_once("../subcategory_script.php");
 ?>
 
-<div id="scroll">
-<div id="head">
-</div>
+
 <div class="navigation">
 <div class="location">
 <b>Location: </b> <a href="<?php echo WWW; ?>">Home</a> &gt;
@@ -114,10 +112,5 @@ The following sections of the RuneScape site may help you further:
 </div></div>
 
 
-<?php 
-require_once("../search_box_brown.php");
-?>
-
-</div>
-</div>
+<?php require_once("../search_box_brown.php"); ?>
 <?php require_once("../../footer.php"); ?>

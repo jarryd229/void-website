@@ -1,0 +1,1 @@
+<img src="img/main/kbase/downloads_and_wallpapers/xmas_cards/falador_print.jpg" alt="Christmas in Falador"/>

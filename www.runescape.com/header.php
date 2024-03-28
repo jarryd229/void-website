@@ -192,7 +192,8 @@ $online = dbevaluate("SELECT COUNT(UID) FROM users WHERE online = '1';");
                                     <li><a href="<?php echo WWW; ?>" class="fly"><span>Adventurer's Log</span></a></li>
 
                                     <li><a href="<?php echo WWW; ?>" class="fly"><span>Polls</span></a></li>
-                                    <li><a href="<?php echo WWW; ?>" class="fly"><span>Downloads &amp; Wallpapers</span></a></li>
+                                    <li><a href="<?php echo WWW; ?>/kbase/guid/Downloads_and_Wallpapers" class="fly"><span>Downloads &amp; Wallpapers</span></a></li>
+									<li><a href="<?php echo WWW; ?>/kbase/guid/media" class="fly"><span>Media</span></a></li>
                                 </ul>
                                 <!--[if lte IE 6]></td></tr></table></a><![endif]-->
                             </li>

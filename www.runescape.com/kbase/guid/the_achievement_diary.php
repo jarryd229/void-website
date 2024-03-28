@@ -6,10 +6,6 @@ require_once("../../header.php");
 require_once("../subcategory_script.php");
 ?>
 
-<div id="scroll">
-<div id="head">
-</div>
-
 <div class="navigation">
 <div class="location">
 <b>Location: </b> <a href="<?php echo WWW; ?>">Home</a> &gt;
@@ -371,11 +367,5 @@ If this article does not help you, you may find the following sections of the Ru
 </div>
 </div>
 
-<?php 
-require_once("../search_box_white.php");
-?>
-
-
-</div>
-
+<?php require_once("../search_box_white.php"); ?>
 <?php require_once("../../footer.php"); ?>
