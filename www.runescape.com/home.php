@@ -81,10 +81,10 @@ require_once("header.php");
 
 <div id="aog" class="section">
     <div class="feature">
-        <a href="<?php echo WWW; ?>"><img src="<?php echo WWW; ?>/img/main/home/feature_downloads_icon.jpg" alt="Downloads and Wallpapers" /></a>
+        <a href="<?php echo WWW; ?>/kbase/guid/Downloads_and_Wallpapers"><img src="<?php echo WWW; ?>/img/main/home/feature_downloads_icon.jpg" alt="Downloads and Wallpapers" /></a>
         <div class="featureTitle">Downloads and Wallpapers</div>
         <div class="featureDesc">Download fantastic RuneScape wallpapers.
-        <a href="<?php echo WWW; ?>">Click here...</a>
+        <a href="<?php echo WWW; ?>/kbase/guid/Downloads_and_Wallpapers">Click here...</a>
 	    </div>
     </div>		
 </div>

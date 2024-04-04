@@ -162,7 +162,7 @@ $online = dbevaluate("SELECT COUNT(UID) FROM users WHERE online = '1';");
                             <!--[if lte IE 6]><table><tr><td><![endif]-->
                                 <ul>
 								<li><a href="<?php echo WWW; ?>" class="fly"><span>Upgrade Your Account</span></a></li>
-                                    <li><a href="<?php echo WWW; ?>" class="fly"><span>Create New Account</span></a></li>
+                                    <li><a href="<?php echo WWW; ?>/create" class="fly"><span>Create New Account</span></a></li>
                                     <li><a href="<?php echo WWW; ?>" class="fly"><span>Account Management</span></a></li>
                                 </ul>
                                 <!--[if lte IE 6]></td></tr></table></a><![endif]-->

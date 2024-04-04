@@ -1,5 +1,5 @@
 <?php 
-define('PAGE_TAB', 4);
+define('PAGE_TAB', 5);
 require_once("../../global.php");
 require_once("../../header.php");
 
@@ -300,19 +300,11 @@ Click Here</a> to download. (Only supported in Firefox &amp; Internet Explorer)<
 </div> <div class="downloads_text_wrapper">
 <p id="duelTagline">A selection of RuneScape music to use in your RuneScape videos or just to listen to!</p>
 <p>
-Below is a selection of RuneScape tracks that we've remixed from the in-game originals, as well as audio versions of the the pirate quest series sea shanties. Right-click on a link and click on "Save Target/Link As..." to download.
+Here are some choice RuneScape tracks that we've remixed from the in-game originals. You might wish to use them in your RuneScape videos or just listen to them. Right-click on a link and click on "Save Target/Link As..." to download.
 </p>
 <p id="assetLinks">
 <span>Remixes:</span>
 <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Animal_Allegory_Remix.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Animal_Allegory_Remix.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Animal_Allegory_Remix.mp3')}catch(x){}" target="_blank">Animal Allegory</a> | <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Animal_Rap-o-gee_Remix.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Animal_Rap-o-gee_Remix.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Animal_Rap-o-gee_Remix.mp3')}catch(x){}" target="_blank">Animal Rap-o-gee</a> | <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Beat_Wars_Remix.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Beat_Wars_Remix.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Beat_Wars_Remix.mp3')}catch(x){}" target="_blank">Beat Wars</a> | <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Har'Money_Remix.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Har'Money_Remix.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Har'Money_Remix.mp3')}catch(x){}" target="_blank">Har'Money</a> | <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Temple_Dissected_Remix.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Temple_Dissected_Remix.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Temple_Dissected_Remix.mp3')}catch(x){}" target="_blank">Temple Dissected</a>
-</p>
-<p id="assetLinks">
-<span>Medleys:</span>
-<a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/OPN_Medley.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/OPN_Medley.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/OPN_Medley.mp3')}catch(x){}" target="_blank">One Piercing Note</a>
-</p>
-<p id="assetLinks">
-<span>Shanties:</span>
-<a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Pirates_Treasure.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Pirates_Treasure.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Pirates_Treasure.mp3')}catch(x){}" target="_blank">Pirate's Treasure</a> | <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Rum_Deal.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Rum_Deal.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Rum_Deal.mp3')}catch(x){}" target="_blank">Rum Deal</a> | <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Cabin_Fever.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Cabin_Fever.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Cabin_Fever.mp3')}catch(x){}" target="_blank">Cabin Fever</a> | <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/The_Great_Brain_Robbery.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/The_Great_Brain_Robbery.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/The_Great_Brain_Robbery.mp3')}catch(x){}" target="_blank">The Great Brain Robbery</a> | <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Rocking_Out.mp3" onclick="try{pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Rocking_Out.mp3')}catch(x){}; try{_pageTracker._trackPageview('<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/assets/Rocking_Out.mp3')}catch(x){}" target="_blank">Rocking Out</a>
 </p>
 </div> <br class="clear"/>
 </div>
@@ -338,6 +330,7 @@ Ever wondered which of RuneScape's biggest creatures would win in a scrap? Downl
 </div>
 
 
+<!--
 
 <div id="brown_box_christmas" class="brown_box"><a name="christmas"></a>
 <div class="subsectionHeader">Christmas Cards</div>
@@ -374,7 +367,7 @@ Ever wondered which of RuneScape's biggest creatures would win in a scrap? Downl
 </div>
 </div>
 
-
+-->
 
 <a name="wallpapers"></a>
 <div id="brown_box_wallpaper" class="brown_box">
@@ -424,8 +417,7 @@ Ever wondered which of RuneScape's biggest creatures would win in a scrap? Downl
 <div class="wallpaper_title">Clan Logo Winners</div><div class="wallpaper_desc">The winners of the clan logo competition on a red leather background.</div>
 <div class="wallpaper_links">
 <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_clanlogo/clanlogo_1024x768.jpg" target="_blank">1024x768</a> |
-<a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_clanlogo/clanlogo_1280x1024.jpg" target="_blank">1280x1024</a>
-<br>
+<a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_clanlogo/clanlogo_1280x1024.jpg" target="_blank">1280x1024</a> |
 <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_clanlogo/clanlogo_1440x900.jpg" target="_blank">1440x900</a> |
 <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_clanlogo/clanlogo_1920x1200.jpg" target="_blank">1920x1200</a>
 </div>
@@ -433,16 +425,17 @@ Ever wondered which of RuneScape's biggest creatures would win in a scrap? Downl
 <div class="inner_wallpaper"><img class="files_image_border" src="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_wilderness/thumb.jpg" alt="Return of the Wilderness ">
 <div class="wallpaper_title">Return of the Wilderness</div><div class="wallpaper_desc">A wallpaper of the iconic green dragon to celebrate the forthcoming return of the Wilderness.</div>
 <div class="wallpaper_links">
+<a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_wilderness/W_800x600.jpg" target="_blank">800x600</a> |
 <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_wilderness/W_1024x768.jpg" target="_blank">1024x768</a> |
-<a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_wilderness/W_1280x1024.jpg" target="_blank">1280x1024</a>
-<br>
+<a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_wilderness/W_1280x1024.jpg" target="_blank">1280x1024</a> |
 <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_wilderness/W_1440x900.jpg" target="_blank">1440x900</a> |
+<a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_wilderness/W_1600x1200.jpg" target="_blank">1600x1200</a> |
 <a href="<?php echo WWW; ?>/img/main/kbase/downloads_and_wallpapers/wallpaper_wilderness/W_1920x1200.jpg" target="_blank">1920x1200</a>
 </div>
 </div>
 <br style="clear:both"/>
 <div class="archive_link">
-<a href="wallpapers_archive#rules">Click here to view more wallpapers</a>
+<a href="wallpapers_archive">Click here to view more wallpapers</a>
 </div>
 </div> </div>
 

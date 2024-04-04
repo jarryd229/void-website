@@ -37,7 +37,7 @@ require_once("../subcategory_script.php");
                  <div class="links"> <a href="#beginner_tasks">Beginner Tasks</a> | <a href="#easy_tasks">Easy Tasks</a> | <a href="#medium_tasks">Medium Tasks</a> | <a href="#hard_tasks">Hard Tasks</a> | <a href="#development_team">Development Team</a> 
                  </div> 
                  <br>
-                 <br> <i>All Tasks in the Lumbridge/Draynor area are available to all players, both free and <a href="<?php echo WWW; ?>/members/members">Members</a>.</i> 
+                 <br> <i>All Tasks in the Lumbridge/Draynor area are available to all players, both free and <a href="<?php echo members; ?>">Members</a>.</i> 
                  <br class="clear"> <a name="beginner_tasks"></a> 
                  <br> 
                  <div class="headings"> <span class="headertitleleft"><span class="headertitleright">Beginner Tasks</span></span> 

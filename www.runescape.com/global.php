@@ -62,6 +62,8 @@ $database->connect($core->get_config("database.name"));
 define('WWW', $core->get_config("site.address"));
 define('jagex', $core->get_config("site.jagex"));
 define('forums', $core->get_config("forums"));
+define('members', $core->get_config("members"));
+define('subscribe', $core->get_config("subscribe"));
 // #############################################################################
 // SESSION(S)
 if (isset($_SESSION['RUNESCAPE_USER']) && isset($_SESSION['RUNESCAPE_HASH'])) {

@@ -70,8 +70,8 @@ Complete various Tasks and earn some rewards.</div>
 </div>
 <div class="itemborder" style="margin-right:4px;">
 <div class="headingpic"><a href="<?php echo WWW; ?>/kbase/guid/runescape_minigames"><img src="<?php echo WWW; ?>/img/main/kbase/category_pages/img_big/manual_minigames.jpg" alt="" style="width:70px;height:70px;"/></a></div>
-<div class="cattext"><div class="text"><div class="title1"><a href="<?php echo WWW; ?>/kbase/guid/runescape_minigames">Activities</a></div>
-See what exciting and rewarding activities await you.</div>
+<div class="cattext"><div class="text"><div class="title1"><a href="<?php echo WWW; ?>/kbase/guid/runescape_minigames">Minigames</a></div>
+See what exciting and rewarding minigames await you.</div>
 </div>
 </div>
 <div class="itemborder">

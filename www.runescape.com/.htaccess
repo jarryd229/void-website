@@ -7,6 +7,15 @@ ErrorDocument 404 http://localhost/www.runescape.com/error404.html
 RewriteRule (.*)\.ws $1.php
 Options -Indexes 
 
+RewriteRule ^create(|/)$ create.php
+RewriteRule ^login(|/)$ login.php
+RewriteRule ^logout(|/)$ logout.php
+
+RewriteRule ^terms/terms(|/)$ terms/terms.php
+RewriteRule ^privacy/privacy(|/)$ privacy/privacy.php
+RewriteRule ^privacy/dataprotect(|/)$ privacy/dataprotect.php
+
+
 RewriteRule ^what_is_runescape(|/)$ what_is_runescape.php
 
 RewriteRule ^kbase/guid/manual(|/)$ kbase/guid/manual.php
@@ -38,15 +47,14 @@ RewriteRule ^kbase/guid/varrock_achievement(|/)$ kbase/guid/varrock_achievement.
 
 RewriteRule ^kbase/guid/random_events(|/)$ kbase/guid/random_events.php
 
-
 RewriteRule ^kbase/guid/runescape_minigames(|/)$ kbase/guid/runescape_minigames.php
 RewriteRule ^kbase/guid/stealing_creation_equipment(|/)$ kbase/guid/stealing_creation_equipment.php
 RewriteRule ^kbase/guid/hybrid_armour_members(|/)$ kbase/guid/hybrid_armour_members.php
 RewriteRule ^kbase/guid/dominion_tower(|/)$ kbase/guid/dominion_tower.php
 RewriteRule ^kbase/guid/barbarian_assault(|/)$ kbase/guid/barbarian_assault.php
 RewriteRule ^kbase/guid/brimhaven_agility_arena(|/)$ kbase/guid/brimhaven_agility_arena.php
-
-
+RewriteRule ^kbase/guid/castle_wars(|/)$ kbase/guid/castle_wars.php
+RewriteRule ^kbase/guid/clan_wars(|/)$ kbase/guid/clan_wars.php
 
 
 
